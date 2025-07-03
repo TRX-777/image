@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Client Side Image Mapping
+</title>
+</head>
+<body>
+<h1 align="center">Client Side Image Mapping</h1>
+<img src="scenery.jpg" usemap="#imagemap">
+<map name="imagemap">
+<area shape="poly" coords="83,39,40,106,124,106" href="p1.html" alt="page 1">
+<area shape="rect" coords="322,29,530,159" href="moon.jpg" alt="page 2">
+<area shape="circle" coords="316,310,50" href="p3.html" alt="page 3">
+</map>
+</body></html>
